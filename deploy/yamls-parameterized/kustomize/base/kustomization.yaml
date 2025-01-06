@@ -1,0 +1,6 @@
+resources:
+  - myproject-ingress.yaml
+  - docker-node-mongo-starter-deployment.yaml
+  - docker-node-mongo-starter-service.yaml
+  - my-app-deployment.yaml
+  - my-app-service.yaml

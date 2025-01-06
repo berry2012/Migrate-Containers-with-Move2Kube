@@ -1,0 +1,3 @@
+resources:
+  - docker-node-mongo-starter-service.yaml
+  - my-app-service.yaml

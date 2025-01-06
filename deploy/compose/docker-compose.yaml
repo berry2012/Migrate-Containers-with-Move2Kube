@@ -1,0 +1,14 @@
+version: "3.5"
+services:
+  docker-node-mongo-starter:
+    container_name: docker-node-mongo-starter
+    image: quay.io/myproject/docker-node-mongo-starter:latest
+    ports:
+      - target: 8080
+        published: 8080
+  my-app:
+    container_name: my-app
+    image: quay.io/myproject/my-app:latest
+    ports:
+      - target: 8080
+        published: 8081

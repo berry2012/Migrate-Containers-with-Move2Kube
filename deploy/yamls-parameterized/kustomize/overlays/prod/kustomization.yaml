@@ -1,0 +1,15 @@
+patches:
+  - path: apps-v1-deployment-docker-node-mongo-starter.yaml
+    target:
+      group: apps
+      version: v1
+      kind: Deployment
+      name: docker-node-mongo-starter
+  - path: apps-v1-deployment-my-app.yaml
+    target:
+      group: apps
+      version: v1
+      kind: Deployment
+      name: my-app
+resources:
+  - ../../base
